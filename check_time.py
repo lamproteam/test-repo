@@ -8,3 +8,5 @@ def check_time_min():
 	hm = (hour,minute)
 	return hm
 
+def sey_hello(username):
+	return "Hello {}".format(username)
