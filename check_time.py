@@ -20,3 +20,6 @@ def show_error_message(message):
 	if len(message) < 1:
 		return False
 	return message
+
+def new_function():
+	print("Hello i am new function")
