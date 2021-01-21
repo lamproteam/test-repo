@@ -15,3 +15,8 @@ def sey_hello(username):
 
 def shutdown():
 	os.system("shutdown -p")
+
+def show_error_message(message):
+	if len(message) < 1:
+		return False
+	return message
